@@ -5,16 +5,16 @@ import { images } from '../assets/images';
 export default function Hero() {
   return (
     <div className="relative min-h-screen bg-gradient-to-br from-gray-900 via-purple-900 to-violet-900 text-white">
-      <div className="absolute inset-0 bg-[url('/src/assets/background.jpg')] bg-cover bg-center opacity-10"></div>
+      <div className="absolute inset-1 bg-[url('/src/assets/background.jpg')] bg-cover bg-center opacity-20"></div>
       <div className="relative container mx-auto px-6 py-32">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="mb-8 relative">
+          <div className="mb-7 relative">
             <img 
               src={images.hero.profile}
               alt="Slavik Dcosta" 
-              className="w-32 h-32 rounded-full mx-auto object-cover border-4 border-violet-400 shadow-lg"
+              className="w-44 h-44 rounded-full mx-auto object-cover border-4 border-violet-400 shadow-lg"
             />
-            <div className="absolute -bottom-4 right-1/2 transform translate-x-20">
+            <div className="absolute -bottom-6 right-1/2 transform translate-x-20">
               <Gamepad2 className="w-10 h-10 text-violet-400" />
             </div>
           </div>
@@ -29,13 +29,13 @@ export default function Hero() {
           </p>
           <div className="flex justify-center gap-6">
             <a href="https://github.com" className="transform hover:scale-110 transition-transform">
-              <Github className="w-8 h-8" />
+              <Github className="w-8 h-8 text-gray-200 hover:text-[#211F1F]" /> {/* GitHub color */}
             </a>
             <a href="https://linkedin.com" className="transform hover:scale-110 transition-transform">
-              <Linkedin className="w-8 h-8" />
+              <Linkedin className="w-8 h-8 text-gray-200 hover:text-[#0077B5]" /> {/* LinkedIn color */}
             </a>
             <a href="mailto:contact@slavik.dev" className="transform hover:scale-110 transition-transform">
-              <Mail className="w-8 h-8" />
+              <Mail className="w-8 h-8 text-gray-200 hover:text-[#EA4335]" /> {/* Email color */}
             </a>
           </div>
         </div>

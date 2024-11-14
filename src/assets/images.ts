@@ -2,7 +2,7 @@
 export const images = {
   hero: {
     background: 'https://images.unsplash.com/photo-1550745165-9bc0b252726f',
-    profile: 'https://i.imgur.com/YQjPwVO.jpg'
+    profile: '/src/assets/WhatsApp Image 2024-11-12 at 23.41.00_a2cc5316.jpg'
   },
   gameProjects: {
     cosmicCrusade: 'https://images.unsplash.com/photo-1614932257675-ea8c7c8d338b',
